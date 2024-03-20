@@ -3,6 +3,12 @@ import './Calculadora.css';
 import Container from '@mui/material/Container';
 import { Box } from '@mui/material';
 
+
+/*to-do quando tiver tempo :)
+após a soma, esta acrecentando numeros ao invez de zerar o resultado
+pode ser a causa do erro ao inserir virgura depois do resultado
+*/
+
 function Calculadora() {
     const [num, setNum] = useState(0);
     const [oldnum, setOldNum] = useState(0);
